@@ -1,0 +1,85 @@
+﻿Build started 2015/11/3 上午 09:30:39.
+     1>Project "D:\MFCprojects\AudioStudy\Source\AudioStudy-SRC-1.0.2\AudioStudy\AudioStudy.vcxproj" on node 2 (Rebuild target(s)).
+     1>ClCompile:
+         C:\Program Files\Microsoft Visual Studio 11.0\VC\bin\CL.exe /c /ZI /nologo /W3 /WX- /sdl /Od /Oy- /D WIN32 /D _DEBUG /D _CONSOLE /D _UNICODE /D UNICODE /Gm /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Yc"stdafx.h" /Fp"Debug\AudioStudy.pch" /Fo"Debug\\" /Fd"Debug\vc110.pdb" /Gd /TP /analyze- /errorReport:prompt stdafx.cpp
+         stdafx.cpp
+     1>d:\mfcprojects\audiostudy\source\audiostudy-src-1.0.2\audiostudy\stdafx.h(6): warning C4081: expected 'newline'; found ';'
+     1>d:\mfcprojects\audiostudy\source\audiostudy-src-1.0.2\audiostudy\stdafx.h(7): warning C4081: expected 'newline'; found ';'
+         C:\Program Files\Microsoft Visual Studio 11.0\VC\bin\CL.exe /c /ZI /nologo /W3 /WX- /sdl /Od /Oy- /D WIN32 /D _DEBUG /D _CONSOLE /D _UNICODE /D UNICODE /Gm /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Yu"stdafx.h" /Fp"Debug\AudioStudy.pch" /Fo"Debug\\" /Fd"Debug\vc110.pdb" /Gd /TP /analyze- /errorReport:prompt AudioFunctions.cpp AudioStudy.cpp AudioTestFunctions.cpp ParseWAVEFile.cpp
+         ParseWAVEFile.cpp
+     1>d:\mfcprojects\audiostudy\source\audiostudy-src-1.0.2\audiostudy\parsewavefile.cpp(10): error C2664: 'OutputDebugStringW' : cannot convert parameter 1 from 'const char [30]' to 'LPCWSTR'
+                 Types pointed to are unrelated; conversion requires reinterpret_cast, C-style cast or function-style cast
+     1>d:\mfcprojects\audiostudy\source\audiostudy-src-1.0.2\audiostudy\parsewavefile.cpp(21): error C2664: 'OutputDebugStringW' : cannot convert parameter 1 from 'const char [21]' to 'LPCWSTR'
+                 Types pointed to are unrelated; conversion requires reinterpret_cast, C-style cast or function-style cast
+     1>d:\mfcprojects\audiostudy\source\audiostudy-src-1.0.2\audiostudy\parsewavefile.cpp(48): error C2664: 'OutputDebugStringW' : cannot convert parameter 1 from 'const char [26]' to 'LPCWSTR'
+                 Types pointed to are unrelated; conversion requires reinterpret_cast, C-style cast or function-style cast
+     1>d:\mfcprojects\audiostudy\source\audiostudy-src-1.0.2\audiostudy\parsewavefile.cpp(56): error C2664: 'OutputDebugStringW' : cannot convert parameter 1 from 'const char [26]' to 'LPCWSTR'
+                 Types pointed to are unrelated; conversion requires reinterpret_cast, C-style cast or function-style cast
+     1>d:\mfcprojects\audiostudy\source\audiostudy-src-1.0.2\audiostudy\parsewavefile.cpp(79): error C2664: 'OutputDebugStringW' : cannot convert parameter 1 from 'const char [15]' to 'LPCWSTR'
+                 Types pointed to are unrelated; conversion requires reinterpret_cast, C-style cast or function-style cast
+     1>d:\mfcprojects\audiostudy\source\audiostudy-src-1.0.2\audiostudy\parsewavefile.cpp(91): error C2664: 'OutputDebugStringW' : cannot convert parameter 1 from 'const char [15]' to 'LPCWSTR'
+                 Types pointed to are unrelated; conversion requires reinterpret_cast, C-style cast or function-style cast
+     1>d:\mfcprojects\audiostudy\source\audiostudy-src-1.0.2\audiostudy\parsewavefile.cpp(100): error C2664: 'OutputDebugStringW' : cannot convert parameter 1 from 'const char [18]' to 'LPCWSTR'
+                 Types pointed to are unrelated; conversion requires reinterpret_cast, C-style cast or function-style cast
+     1>d:\mfcprojects\audiostudy\source\audiostudy-src-1.0.2\audiostudy\parsewavefile.cpp(125): error C2664: 'OutputDebugStringW' : cannot convert parameter 1 from 'const char [11]' to 'LPCWSTR'
+                 Types pointed to are unrelated; conversion requires reinterpret_cast, C-style cast or function-style cast
+     1>d:\mfcprojects\audiostudy\source\audiostudy-src-1.0.2\audiostudy\parsewavefile.cpp(135): error C2664: 'OutputDebugStringW' : cannot convert parameter 1 from 'const char [20]' to 'LPCWSTR'
+                 Types pointed to are unrelated; conversion requires reinterpret_cast, C-style cast or function-style cast
+     1>d:\mfcprojects\audiostudy\source\audiostudy-src-1.0.2\audiostudy\parsewavefile.cpp(148): error C2664: 'OutputDebugStringW' : cannot convert parameter 1 from 'const char [12]' to 'LPCWSTR'
+                 Types pointed to are unrelated; conversion requires reinterpret_cast, C-style cast or function-style cast
+     1>d:\mfcprojects\audiostudy\source\audiostudy-src-1.0.2\audiostudy\parsewavefile.cpp(182): error C2664: 'OutputDebugStringW' : cannot convert parameter 1 from 'const char [21]' to 'LPCWSTR'
+                 Types pointed to are unrelated; conversion requires reinterpret_cast, C-style cast or function-style cast
+     1>d:\mfcprojects\audiostudy\source\audiostudy-src-1.0.2\audiostudy\parsewavefile.cpp(203): error C2664: 'OutputDebugStringW' : cannot convert parameter 1 from 'const char [16]' to 'LPCWSTR'
+                 Types pointed to are unrelated; conversion requires reinterpret_cast, C-style cast or function-style cast
+     1>d:\mfcprojects\audiostudy\source\audiostudy-src-1.0.2\audiostudy\parsewavefile.cpp(214): error C2664: 'OutputDebugStringW' : cannot convert parameter 1 from 'const char [25]' to 'LPCWSTR'
+                 Types pointed to are unrelated; conversion requires reinterpret_cast, C-style cast or function-style cast
+     1>d:\mfcprojects\audiostudy\source\audiostudy-src-1.0.2\audiostudy\parsewavefile.cpp(237): error C2664: 'OutputDebugStringW' : cannot convert parameter 1 from 'const char [16]' to 'LPCWSTR'
+                 Types pointed to are unrelated; conversion requires reinterpret_cast, C-style cast or function-style cast
+     1>d:\mfcprojects\audiostudy\source\audiostudy-src-1.0.2\audiostudy\parsewavefile.cpp(300): error C2664: 'OutputDebugStringW' : cannot convert parameter 1 from 'const char [39]' to 'LPCWSTR'
+                 Types pointed to are unrelated; conversion requires reinterpret_cast, C-style cast or function-style cast
+     1>d:\mfcprojects\audiostudy\source\audiostudy-src-1.0.2\audiostudy\parsewavefile.cpp(340): warning C4018: '<' : signed/unsigned mismatch
+     1>d:\mfcprojects\audiostudy\source\audiostudy-src-1.0.2\audiostudy\parsewavefile.cpp(380): warning C4018: '<' : signed/unsigned mismatch
+     1>d:\mfcprojects\audiostudy\source\audiostudy-src-1.0.2\audiostudy\parsewavefile.cpp(396): error C2664: 'OutputDebugStringW' : cannot convert parameter 1 from 'const char [23]' to 'LPCWSTR'
+                 Types pointed to are unrelated; conversion requires reinterpret_cast, C-style cast or function-style cast
+     1>d:\mfcprojects\audiostudy\source\audiostudy-src-1.0.2\audiostudy\parsewavefile.cpp(403): error C2664: 'OutputDebugStringW' : cannot convert parameter 1 from 'const char [15]' to 'LPCWSTR'
+                 Types pointed to are unrelated; conversion requires reinterpret_cast, C-style cast or function-style cast
+     1>d:\mfcprojects\audiostudy\source\audiostudy-src-1.0.2\audiostudy\parsewavefile.cpp(426): error C2664: 'OutputDebugStringW' : cannot convert parameter 1 from 'const char [32]' to 'LPCWSTR'
+                 Types pointed to are unrelated; conversion requires reinterpret_cast, C-style cast or function-style cast
+     1>d:\mfcprojects\audiostudy\source\audiostudy-src-1.0.2\audiostudy\parsewavefile.cpp(447): error C2664: 'OutputDebugStringW' : cannot convert parameter 1 from 'const char [17]' to 'LPCWSTR'
+                 Types pointed to are unrelated; conversion requires reinterpret_cast, C-style cast or function-style cast
+     1>d:\mfcprojects\audiostudy\source\audiostudy-src-1.0.2\audiostudy\parsewavefile.cpp(479): error C2664: 'OutputDebugStringW' : cannot convert parameter 1 from 'const char [14]' to 'LPCWSTR'
+                 Types pointed to are unrelated; conversion requires reinterpret_cast, C-style cast or function-style cast
+     1>d:\mfcprojects\audiostudy\source\audiostudy-src-1.0.2\audiostudy\parsewavefile.cpp(488): error C2664: 'OutputDebugStringW' : cannot convert parameter 1 from 'const char [22]' to 'LPCWSTR'
+                 Types pointed to are unrelated; conversion requires reinterpret_cast, C-style cast or function-style cast
+     1>d:\mfcprojects\audiostudy\source\audiostudy-src-1.0.2\audiostudy\parsewavefile.cpp(501): error C2664: 'OutputDebugStringW' : cannot convert parameter 1 from 'const char [34]' to 'LPCWSTR'
+                 Types pointed to are unrelated; conversion requires reinterpret_cast, C-style cast or function-style cast
+         AudioTestFunctions.cpp
+     1>d:\mfcprojects\audiostudy\source\audiostudy-src-1.0.2\audiostudy\audiotestfunctions.cpp(94): warning C4101: 'm_hFile' : unreferenced local variable
+         AudioStudy.cpp
+     1>d:\mfcprojects\audiostudy\source\audiostudy-src-1.0.2\audiostudy\audiostudy.cpp(80): error C2664: '_stricmp' : cannot convert parameter 1 from '_TCHAR *' to 'const char *'
+                 Types pointed to are unrelated; conversion requires reinterpret_cast, C-style cast or function-style cast
+     1>d:\mfcprojects\audiostudy\source\audiostudy-src-1.0.2\audiostudy\audiostudy.cpp(84): error C2664: '_stricmp' : cannot convert parameter 1 from '_TCHAR *' to 'const char *'
+                 Types pointed to are unrelated; conversion requires reinterpret_cast, C-style cast or function-style cast
+     1>d:\mfcprojects\audiostudy\source\audiostudy-src-1.0.2\audiostudy\audiostudy.cpp(88): error C2664: '_stricmp' : cannot convert parameter 1 from '_TCHAR *' to 'const char *'
+                 Types pointed to are unrelated; conversion requires reinterpret_cast, C-style cast or function-style cast
+         AudioFunctions.cpp
+     1>d:\mfcprojects\audiostudy\source\audiostudy-src-1.0.2\audiostudy\audiofunctions.cpp(144): warning C4305: 'argument' : truncation from 'double' to 'float'
+     1>d:\mfcprojects\audiostudy\source\audiostudy-src-1.0.2\audiostudy\audiofunctions.cpp(214): warning C4553: '==' : operator has no effect; did you intend '='?
+     1>d:\mfcprojects\audiostudy\source\audiostudy-src-1.0.2\audiostudy\audiofunctions.cpp(350): warning C4244: '=' : conversion from 'double' to 'REFERENCE_TIME', possible loss of data
+     1>d:\mfcprojects\audiostudy\source\audiostudy-src-1.0.2\audiostudy\audiofunctions.cpp(500): error C2664: 'CreateFileW' : cannot convert parameter 1 from 'char *' to 'LPCWSTR'
+                 Types pointed to are unrelated; conversion requires reinterpret_cast, C-style cast or function-style cast
+     1>d:\mfcprojects\audiostudy\source\audiostudy-src-1.0.2\audiostudy\audiofunctions.cpp(545): warning C4005: 'EXIT_ON_ERROR' : macro redefinition
+                 d:\mfcprojects\audiostudy\source\audiostudy-src-1.0.2\audiostudy\audiofunctions.cpp(26) : see previous definition of 'EXIT_ON_ERROR'
+     1>d:\mfcprojects\audiostudy\source\audiostudy-src-1.0.2\audiostudy\audiofunctions.cpp(623): warning C4244: '=' : conversion from 'double' to 'REFERENCE_TIME', possible loss of data
+     1>d:\mfcprojects\audiostudy\source\audiostudy-src-1.0.2\audiostudy\audiofunctions.cpp(632): warning C4244: 'argument' : conversion from 'REFERENCE_TIME' to 'DWORD', possible loss of data
+     1>d:\mfcprojects\audiostudy\source\audiostudy-src-1.0.2\audiostudy\audiofunctions.cpp(811): warning C4244: '=' : conversion from 'double' to 'REFERENCE_TIME', possible loss of data
+     1>d:\mfcprojects\audiostudy\source\audiostudy-src-1.0.2\audiostudy\audiofunctions.cpp(1175): error C2664: 'mmioOpenW' : cannot convert parameter 1 from 'char *' to 'LPWSTR'
+                 Types pointed to are unrelated; conversion requires reinterpret_cast, C-style cast or function-style cast
+     1>d:\mfcprojects\audiostudy\source\audiostudy-src-1.0.2\audiostudy\audiofunctions.cpp(1698): error C2664: 'AvSetMmThreadCharacteristicsW' : cannot convert parameter 1 from 'const char [9]' to 'LPCWSTR'
+                 Types pointed to are unrelated; conversion requires reinterpret_cast, C-style cast or function-style cast
+         Generating Code...
+     1>Done Building Project "D:\MFCprojects\AudioStudy\Source\AudioStudy-SRC-1.0.2\AudioStudy\AudioStudy.vcxproj" (Rebuild target(s)) -- FAILED.
+
+Build FAILED.
+
+Time Elapsed 00:00:06.65
